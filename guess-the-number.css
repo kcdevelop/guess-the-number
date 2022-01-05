@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+Ops+One&family=Bungee+Hairline&family=Poiret+One&display=swap');
+
+body,
+section,
+div, h1 {
+	padding: 0px;
+	margin: 0px;
+}
+input,
+.marquee,
+.marquee h1,
+.marquee .display {
+	width: 100%;
+}
+input,
+.marquee h1,
+.marquee .display {
+	text-align: center;
+	color: #000;
+}
+.marquee,
+input[name="items"],
+input[name="ounces"] {
+	margin-bottom: 15px;
+}
+input,
+.marquee h1 {
+	font-family: "Poiret One";
+	padding: 5px 0px;
+}
+input,
+.marquee .display {
+	font-size: 18px;
+}
+input[name="items"],
+input[name="ounces"] {
+	border-bottom: 1px solid #000;
+	border-top: 0px solid #000;
+	border-left: 0px solid #000;
+	border-right: 0px solid #000;
+	outline: none;
+}
+.marquee {
+	background:
+		url("./backgrounds/asfalt-dark.png")
+		top left repeat rgb(173, 166, 151, .05);
+	border-bottom: solid 1px #000;
+}
+.marquee h1 {
+	font-size: 5vw;
+}
+.marquee .display {
+	padding-bottom: 8px;
+	font-family: arial;
+}
+input {
+	letter-spacing: .05em;
+	display: block;
+}
+input[name="submit"] {
+	margin: 25px auto 0px;
+	max-width: 40%;
+}
+@media screen and (min-width: 765px) {
+	.marquee h1 {
+		font-size: 41px;
+	}
+}
